@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Filter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Container 1 -->
+  <div class="container">
+    <h2>Product List</h2>
+    <label for="category1">Filter by Category:</label>
+    <select id="category1" onchange="filterProducts('category1','productList1')">
+      <option value="All">All</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Books">Books</option>
+    </select>
+    <ul id="productList1"></ul>
+  </div>
+
+  <!-- Container 2 -->
+  <div class="container">
+    <h2>Product List</h2>
+    <label for="category2">Filter by Category:</label>
+    <select id="category2" onchange="filterProducts('category2','productList2')">
+      <option value="All">All</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Books">Books</option>
+    </select>
+    <ul id="productList2"></ul>
+  </div>
+
+  <!-- Container 3 -->
+  <div class="container">
+    <h2>Product List</h2>
+    <label for="category3">Filter by Category:</label>
+    <select id="category3" onchange="filterProducts('category3','productList3')">
+      <option value="All">All</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Books">Books</option>
+    </select>
+    <ul id="productList3"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

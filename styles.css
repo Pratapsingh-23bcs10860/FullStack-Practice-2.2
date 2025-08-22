@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Container styling */
+.container {
+  border: 2px solid #000;   /* Black border for Product List container */
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  max-width: 500px;
+  background: #fff;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  margin-left: 10px;
+  padding: 4px;
+}
+
+/* Remove dots and padding */
+ul {
+  list-style-type: none;  /* Removes dots */
+  padding: 0;
+  margin-top: 15px;
+}
+
+/* Each product item styled with borders */
+li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;  /* Border for each product */
+  border-radius: 3px;
+  background: #fafafa;
+}
